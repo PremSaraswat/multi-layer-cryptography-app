@@ -2,10 +2,6 @@
 
 A Tkinter desktop app that chains three **classical** ciphers — Rail Fence, Vigenère, and Affine — and shows the output of every stage of both encryption and decryption.
 
-> ### ⚠️ Educational use only — this is not secure encryption
->
-> This project demonstrates how classical ciphers work and compose. **It must not be used to protect real data.** The specific weaknesses are measured and documented in [Security notes](#security-notes) below. If you need actual confidentiality, use an authenticated cipher such as AES-GCM or `cryptography.fernet` instead.
-
 ## What it does
 
 Encryption applies three layers in order:
